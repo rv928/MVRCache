@@ -37,7 +37,7 @@ class UserCell: UITableViewCell {
         
        // Caching image from CacheManager
         
-        CacheManager.manage.cacheResponseFromURL(sourceURL: currentUser?.user?.profile_image?.medium!, shouldStoreInCache: true, cacheType: .JSON) { (outputObject, error, CurrentCacheType) in
+        CacheManager.manage.cacheResponseFromURL(sourceURL: currentUser?.user?.profile_image?.medium!, shouldStoreInCache: true, cacheType: .Image) { (outputObject, error, CurrentCacheType) in
             
             switch CurrentCacheType {
             case .Image:

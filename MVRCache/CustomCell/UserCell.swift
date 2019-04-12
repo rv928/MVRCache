@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MVCacheManager
 
 class UserCell: UITableViewCell {
 

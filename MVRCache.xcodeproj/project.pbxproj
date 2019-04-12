@@ -11,6 +11,8 @@
 		20DB6C52482E6ACCF25E5D8F /* Pods_MVRCacheTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 317A662C34380074F6EFCDA3 /* Pods_MVRCacheTests.framework */; };
 		53EBFE02FF00916B412285A1 /* Pods_MVRCacheUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833EE9125C635D0153770D98 /* Pods_MVRCacheUITests.framework */; };
 		849E630822607FFF00C2D0F8 /* UserListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E630722607FFF00C2D0F8 /* UserListViewControllerTests.swift */; };
+		84EC18D12260D973002DAE81 /* MVCacheManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EC18D02260D972002DAE81 /* MVCacheManager.framework */; };
+		84EC18D22260D973002DAE81 /* MVCacheManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84EC18D02260D972002DAE81 /* MVCacheManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		84F5F85E225DBF2F00ACD63B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F5F85D225DBF2F00ACD63B /* Assets.xcassets */; };
 		84F5F861225DBF2F00ACD63B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F5F85F225DBF2F00ACD63B /* LaunchScreen.storyboard */; };
 		84F5F86C225DBF2F00ACD63B /* MVRCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F5F86B225DBF2F00ACD63B /* MVRCacheTests.swift */; };
@@ -35,7 +37,6 @@
 		84F5F8B8225E009000ACD63B /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F5F8B6225E009000ACD63B /* UserCell.swift */; };
 		84F5F8B9225E009000ACD63B /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F5F8B7225E009000ACD63B /* UserCell.xib */; };
 		84F5F8BB225E03FA00ACD63B /* TagIDConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F5F8BA225E03FA00ACD63B /* TagIDConstant.swift */; };
-		84F5F8BE225E192D00ACD63B /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F5F8BD225E192D00ACD63B /* CacheManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		84EC18D32260D973002DAE81 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				84EC18D22260D973002DAE81 /* MVCacheManager.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1ED48435155DDE2E20579E9A /* Pods-MVRCacheUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVRCacheUITests.release.xcconfig"; path = "Target Support Files/Pods-MVRCacheUITests/Pods-MVRCacheUITests.release.xcconfig"; sourceTree = "<group>"; };
 		317A662C34380074F6EFCDA3 /* Pods_MVRCacheTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVRCacheTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +77,7 @@
 		649941B17A3A1B365D5B409B /* Pods-MVRCacheUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVRCacheUITests.debug.xcconfig"; path = "Target Support Files/Pods-MVRCacheUITests/Pods-MVRCacheUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		833EE9125C635D0153770D98 /* Pods_MVRCacheUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVRCacheUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		849E630722607FFF00C2D0F8 /* UserListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewControllerTests.swift; sourceTree = "<group>"; };
+		84EC18D02260D972002DAE81 /* MVCacheManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MVCacheManager.framework; sourceTree = "<group>"; };
 		84F5F853225DBF2E00ACD63B /* MVRCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVRCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F5F85D225DBF2F00ACD63B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84F5F860225DBF2F00ACD63B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -92,7 +108,6 @@
 		84F5F8B6225E009000ACD63B /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		84F5F8B7225E009000ACD63B /* UserCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCell.xib; sourceTree = "<group>"; };
 		84F5F8BA225E03FA00ACD63B /* TagIDConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagIDConstant.swift; sourceTree = "<group>"; };
-		84F5F8BD225E192D00ACD63B /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 		AA198B11940796D07D1E6635 /* Pods-MVRCache.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVRCache.release.xcconfig"; path = "Target Support Files/Pods-MVRCache/Pods-MVRCache.release.xcconfig"; sourceTree = "<group>"; };
 		BDAB6D1BCE855EA03341A2B3 /* Pods_MVRCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVRCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC1DA8C1C2EB2E28AA1BB600 /* Pods-MVRCacheTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVRCacheTests.release.xcconfig"; path = "Target Support Files/Pods-MVRCacheTests/Pods-MVRCacheTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -104,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84EC18D12260D973002DAE81 /* MVCacheManager.framework in Frameworks */,
 				123E7F1F887039EACFC09D8D /* Pods_MVRCache.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +169,7 @@
 		84F5F84A225DBF2E00ACD63B = {
 			isa = PBXGroup;
 			children = (
+				84EC18D02260D972002DAE81 /* MVCacheManager.framework */,
 				84F5F855225DBF2E00ACD63B /* MVRCache */,
 				84F5F86A225DBF2F00ACD63B /* MVRCacheTests */,
 				84F5F875225DBF2F00ACD63B /* MVRCacheUITests */,
@@ -264,7 +281,6 @@
 		84F5F889225DC03700ACD63B /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				84F5F8BC225E192200ACD63B /* CacheManager */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -334,14 +350,6 @@
 			path = Generics;
 			sourceTree = "<group>";
 		};
-		84F5F8BC225E192200ACD63B /* CacheManager */ = {
-			isa = PBXGroup;
-			children = (
-				84F5F8BD225E192D00ACD63B /* CacheManager.swift */,
-			);
-			path = CacheManager;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -354,6 +362,7 @@
 				84F5F850225DBF2E00ACD63B /* Frameworks */,
 				84F5F851225DBF2E00ACD63B /* Resources */,
 				49280FABD9C7D63F4909FF9F /* [CP] Embed Pods Frameworks */,
+				84EC18D32260D973002DAE81 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -585,7 +594,6 @@
 				84F5F8A8225DE1FF00ACD63B /* SharedAlert.swift in Sources */,
 				84F5F8AC225DE27500ACD63B /* KeyConstant.swift in Sources */,
 				84F5F8B5225DF6EF00ACD63B /* Dictionary+Decoder.swift in Sources */,
-				84F5F8BE225E192D00ACD63B /* CacheManager.swift in Sources */,
 				84F5F8B2225DEE8900ACD63B /* UserList.swift in Sources */,
 				84F5F88E225DC07800ACD63B /* AppDelegate.swift in Sources */,
 				84F5F89C225DCF0300ACD63B /* Dictionary+Operation.swift in Sources */,
@@ -762,6 +770,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 85Z6DRR6M5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MVRCache/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -785,6 +797,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 85Z6DRR6M5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MVRCache/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (

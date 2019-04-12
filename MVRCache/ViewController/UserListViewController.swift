@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MVCacheManager
 
 //Height Constant for UITableViewCell Height
 struct UserListCellHeight {

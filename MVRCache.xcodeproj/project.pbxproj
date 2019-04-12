@@ -10,6 +10,7 @@
 		123E7F1F887039EACFC09D8D /* Pods_MVRCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDAB6D1BCE855EA03341A2B3 /* Pods_MVRCache.framework */; };
 		20DB6C52482E6ACCF25E5D8F /* Pods_MVRCacheTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 317A662C34380074F6EFCDA3 /* Pods_MVRCacheTests.framework */; };
 		53EBFE02FF00916B412285A1 /* Pods_MVRCacheUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833EE9125C635D0153770D98 /* Pods_MVRCacheUITests.framework */; };
+		849E630822607FFF00C2D0F8 /* UserListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E630722607FFF00C2D0F8 /* UserListViewControllerTests.swift */; };
 		84F5F85E225DBF2F00ACD63B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F5F85D225DBF2F00ACD63B /* Assets.xcassets */; };
 		84F5F861225DBF2F00ACD63B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F5F85F225DBF2F00ACD63B /* LaunchScreen.storyboard */; };
 		84F5F86C225DBF2F00ACD63B /* MVRCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F5F86B225DBF2F00ACD63B /* MVRCacheTests.swift */; };
@@ -60,6 +61,7 @@
 		5F15699A9C4D16031AC7163B /* Pods-MVRCache.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVRCache.debug.xcconfig"; path = "Target Support Files/Pods-MVRCache/Pods-MVRCache.debug.xcconfig"; sourceTree = "<group>"; };
 		649941B17A3A1B365D5B409B /* Pods-MVRCacheUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVRCacheUITests.debug.xcconfig"; path = "Target Support Files/Pods-MVRCacheUITests/Pods-MVRCacheUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		833EE9125C635D0153770D98 /* Pods_MVRCacheUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVRCacheUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		849E630722607FFF00C2D0F8 /* UserListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewControllerTests.swift; sourceTree = "<group>"; };
 		84F5F853225DBF2E00ACD63B /* MVRCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVRCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F5F85D225DBF2F00ACD63B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84F5F860225DBF2F00ACD63B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				84F5F86B225DBF2F00ACD63B /* MVRCacheTests.swift */,
+				849E630722607FFF00C2D0F8 /* UserListViewControllerTests.swift */,
 				84F5F86D225DBF2F00ACD63B /* Info.plist */,
 			);
 			path = MVRCacheTests;
@@ -596,6 +599,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84F5F86C225DBF2F00ACD63B /* MVRCacheTests.swift in Sources */,
+				849E630822607FFF00C2D0F8 /* UserListViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

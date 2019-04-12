@@ -157,4 +157,11 @@ extension UserListViewController:UITableViewDelegate,UITableViewDataSource {
     }
 }
 
+// MARK:- NSCache Delegate Methods
 
+extension UserListViewController:NSCacheDelegate {
+    
+    func cache(_ cache: NSCache<AnyObject, AnyObject>, willEvictObject obj: Any) {
+        print(obj)
+    }
+}

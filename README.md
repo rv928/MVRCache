@@ -7,7 +7,7 @@ MVRCache is a Swift library for caching images and json files.
 
 ## Installation
 
-Add MVCacheManager.Framework in your project and import 
+Add MVCacheManager.Framework in your project and import it.
 
 ## Usage
 

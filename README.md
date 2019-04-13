@@ -1,7 +1,7 @@
 # MVRCache
 
-Use dev branch for MVRCache App.
-Use FrameworkTest branch for MVCacheManager Framework.
+# Use dev branch for MVRCache App.
+# Use FrameworkTest branch for MVCacheManager Framework.
 
 MVRCache is a Swift library for caching images and json files.
 
